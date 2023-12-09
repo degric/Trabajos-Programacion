@@ -12,7 +12,7 @@ Algoritmo IMC
 	Si (sexo == 1) Entonces
 		genero <- "Mujer"
 	SiNo si (sexo == 2) Entonces
-			genero <- Mujer
+			genero <- "Hombre"
 		SiNo
 			Escribir "Eliga bien el sexo."
 		FinSi
