@@ -1,5 +1,8 @@
 Algoritmo cicm
 	
+	
+	Escribir "######################## Calculadora de IMC ########################"
+	Escribir ""
 	Escribir "Ingresa tu genero: "
 	Escribir "[1] Hombre"
 	Escribir "[2] Mujer"
@@ -95,7 +98,7 @@ FinSi
 					
 			FinSegun
 		2:
-			segun edad Hacer
+			segun rango Hacer
 				1:
 					si (icm >= 3.2 y icm <= 8.7) entonces
 						Escribir "Ti icm es: ", icm,", es normal"
@@ -154,5 +157,6 @@ FinSi
 					
 			FinSegun
 	FinSegun
-	
+	Escribir ""
+	Escribir "########################  -------FIN-------  ########################"
 FinAlgoritmo
